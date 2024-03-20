@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 
 import StyledComponentsRegistry from '@/components/StyledComponentsRegistry';
 import GlobalStyles from '@/components/Global.styles';
+import Footer from '@/components/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,7 +21,10 @@ export default function RootLayout({
     <StyledComponentsRegistry>
       <GlobalStyles />
       <html lang="de">
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          {children}
+          <Footer />
+        </body>
       </html>
     </StyledComponentsRegistry>
   );

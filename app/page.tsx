@@ -1,5 +1,11 @@
+import Menu from '@/components/menu';
+
 const Home = () => {
-  return <main>Hallo Welt!</main>;
+  return (
+    <main>
+      <Menu />
+    </main>
+  );
 };
 
 export default Home;

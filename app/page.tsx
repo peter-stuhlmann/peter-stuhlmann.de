@@ -1,10 +1,13 @@
 import Menu from '@/components/menu';
+import SocialMedia from '@/components/social-media';
+import { Container } from './page.styled';
 
 const Home = () => {
   return (
-    <main>
+    <Container>
+      <SocialMedia />
       <Menu />
-    </main>
+    </Container>
   );
 };
 

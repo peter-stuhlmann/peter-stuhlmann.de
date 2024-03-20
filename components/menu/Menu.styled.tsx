@@ -9,7 +9,6 @@ export const Container = styled.nav`
   justify-content: center;
   gap: 20px;
   padding: 20px;
-  margin: 50px 0;
 
   @media (min-width: 1024px) {
     flex-direction: row;

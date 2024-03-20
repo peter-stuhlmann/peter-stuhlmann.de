@@ -10,12 +10,12 @@ export const Container = styled.footer`
   padding: 20px;
 
   div {
-    padding: 10px 20px;
-
     a {
       text-decoration: none;
       color: inherit;
       padding: 10px 20px;
+      text-align: center;
+      display: flex;
     }
   }
 
@@ -29,6 +29,7 @@ export const Container = styled.footer`
       text-decoration: none;
       color: inherit;
       padding: 10px 20px;
+      text-align: center;
     }
   }
 `;
